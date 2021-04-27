@@ -258,3 +258,5 @@ initial configuration (per local machine, per environment) needed to access the 
 
 ## Possible extensions
 - Dynamically input correct ami based on region.
+- Need to turn buildspec into a file
+- Need to turn user data into a file
