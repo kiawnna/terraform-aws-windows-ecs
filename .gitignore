@@ -1,0 +1,11 @@
+# Ignore terraform files
+.idea
+.terraform
+.terraform.tfstate.lock.info
+terraform.tfstate.lock.info
+terraform.tfstate.backup
+crash.log
+.terraform.lock.hcl
+terraform.tfstate
+.DS_Store
+.idea/
