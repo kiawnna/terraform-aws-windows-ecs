@@ -51,7 +51,7 @@ For the websites hosted in S3, this stack will deploy:
 > Note: This module is borrowed from XXXXXXX.
     
 # CI/CD Stack
-This CI/CD stack is used to implement a CI/CD pipeline using GitHub and AWS resources.
+This CI/CD stack is used to implement a CI/CD pipeline using GitHub and AWS resources for Windows applications that can't run on Linux instances.
 
 The `cicd_shared` module only needs to be called **once** and will deploy:
 - An S3 bucket to hold your application "artifacts" (zipped files of your application code).
