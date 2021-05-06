@@ -1,5 +1,6 @@
 # Terraform Stack
-This Terraform stack contains two parts: the `ECS Stack` and the `CI/CD` stack.
+This Terraform stack contains two parts: the `ECS Stack` and the `CI/CD` stack. This stack contains all the resources (from networking to CICD) you 
+would need to host Windows applications on ECS, as well as a CICD Step Function pipeline to enable easy testing and deployement of applications.
 
 > **Note**: This stack uses a set naming convention (`{company}-{app_name, where applicable}-{region}-{environment}-resource`)
 > and tagging so that it is easy to find resources once deployed to ECS.
